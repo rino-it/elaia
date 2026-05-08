@@ -9,6 +9,7 @@ type TodState = {
   body: string
   textColor: string
   img: string
+  imgMobile?: string
   alt: string
 }
 
@@ -117,8 +118,12 @@ export default function TimesOfDay() {
             data-state={s.key}
             style={{ opacity: i === 0 ? 1 : 0 }}
           >
-            {/* TODO: provide asset {s.img} (1920×1080, ≤180KB) */}
-            <img src={s.img} alt={s.alt} loading="lazy" />
+            <picture>
+              {s.imgMobile && (
+                <source srcSet={s.imgMobile} media="(max-width: 768px)" />
+              )}
+              <img src={s.img} alt={s.alt} loading="lazy" />
+            </picture>
           </div>
         ))}
 
