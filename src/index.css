@@ -2964,7 +2964,9 @@ footer {
 }
 
 .tod-bg[data-state="day"] img {
-  object-position: 35% 65%;
+  object-position: 65% 55%;
+  transform: scale(1.5);
+  transform-origin: 65% 55%;
 }
 
 .tod-bg[data-state="dusk"] img {
