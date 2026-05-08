@@ -2265,6 +2265,33 @@ footer {
   line-height: 1;
 }
 
+/* Sub hero in modalità "metadata" — sostituisce trust+eyebrow sotto il titolo */
+.hero-sub-meta {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--paper);
+  line-height: 1.9;
+  max-width: none;
+  margin-bottom: 36px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.55);
+}
+
+.hero-sub-meta .hero-trust-dot {
+  color: var(--paper);
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+@media (min-width: 769px) {
+  .hero-sub-meta {
+    font-size: 13px;
+    letter-spacing: 0.3em;
+  }
+}
+
 /* ===== STATEMENT BODY ===== */
 .statement-body {
   margin-top: 30px;

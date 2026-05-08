@@ -46,15 +46,13 @@ export default function Hero() {
         />
       </div>
       <div className="hero-inner">
-        <div className="hero-trust">
-          <span className="hero-trust-dot">●</span> 7 Residenze · Classe A4 · Vista Parco dei Colli
-        </div>
-        <div className="hero-eyebrow">ELAIA · Ponteranica</div>
         <h1 className="serif hero-title">
           La tranquillità esclusiva <span className="ital">di Ponteranica</span>.
         </h1>
-        <p className="hero-sub">
-          Sette residenze in classe A4, immerse nel verde, con vista sul Parco dei Colli.
+        <p className="hero-sub hero-sub-meta">
+          <span className="hero-trust-dot">●</span> 7 Residenze · Classe A4 · Vista Parco dei Colli
+          <br />
+          ELAIA · Ponteranica
         </p>
         <div className="hero-cta-row">
           <a
