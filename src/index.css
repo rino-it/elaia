@@ -2245,6 +2245,11 @@ footer {
   object-position: center 35%;
 }
 
+/* Override puntuale Vista: focus su caffè + vista dal balcone (destra-basso) */
+.vista-bg img {
+  object-position: 75% 60%;
+}
+
 /* ===== HERO TRUST PILL ===== */
 .hero-trust {
   font-size: 10px;
