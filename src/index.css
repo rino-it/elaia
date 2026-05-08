@@ -2949,6 +2949,11 @@ footer {
   height: 100%;
   object-fit: cover;
   object-position: center 40%;
+}
+
+/* Override puntuali per singolo momento — focus su soggetto + tramonto */
+.tod-bg[data-state="dusk"] img {
+  object-position: 22% 50%;
   display: block;
   animation: todZoom 14s ease-out infinite alternate;
 }
