@@ -44,10 +44,10 @@ export default function CallbackPanel() {
       <div className="callback-inner">
         <p className="eyebrow">Una telefonata</p>
         <h3 className="callback-title serif">
-          Quindici minuti con <span className="ital">Massimo</span>.
+          Quindici minuti, <span className="ital">senza impegni</span>.
         </h3>
         <p className="callback-sub">
-          Quando vi è comodo. Senza appuntamento commerciale, senza spiegare nulla in dieci minuti.
+          Una breve chiamata conoscitiva per ricevere tutte le informazioni che ti servono. Senza proposte commerciali, senza pressioni — quando ti è comodo.
         </p>
 
         {!done ? (
