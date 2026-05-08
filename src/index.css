@@ -2958,9 +2958,8 @@ footer {
 
 /* Override puntuali per singolo momento — focus su soggetto + palazzina */
 .tod-bg[data-state="dawn"] img {
-  object-position: 60% 55%;
-  transform: scale(1.5);
-  transform-origin: 60% 55%;
+  /* foto = vista-panoramica; cropped sui colli al posto del caffè per non duplicare */
+  object-position: 30% 35%;
 }
 
 .tod-bg[data-state="day"] img {
