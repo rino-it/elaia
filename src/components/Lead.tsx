@@ -149,7 +149,7 @@ export default function Lead() {
           <div className="lead-banner reveal">
             <span className="lead-banner__tag">Capitolato ELAIA · Su misura</span>
             <p>
-              Lasci nome, telefono ed email. <strong>Quindici minuti al telefono</strong> con Massimo Brissoni (l'agenzia REMAX) per capirci. Poi le invieremo il capitolato completo, già adattato alle sue esigenze.
+              Lascia nome, telefono ed email. <strong>Quindici minuti al telefono</strong> con Massimo Brissoni (l'agenzia REMAX) per conoscerci. Poi ti invieremo il capitolato completo, già adattato alle tue esigenze.
             </p>
           </div>
         )}
@@ -160,7 +160,7 @@ export default function Lead() {
               <>
                 Il capitolato,
                 <br />
-                <span className="ital">su misura per lei</span>.
+                <span className="ital">su misura per te</span>.
               </>
             ) : (
               <>
@@ -172,8 +172,8 @@ export default function Lead() {
           </h2>
           <p className="lead-sub">
             {capitoloRequested
-              ? 'Quindici minuti al telefono per conoscerci. Poi Massimo Brissoni (l\'agenzia REMAX) le invia il capitolato completo — pagine di scelte tecniche e finiture, calibrate sul suo interesse.'
-              : 'Vi presentiamo il progetto, rispondiamo alle vostre domande e organizziamo una visita in cantiere. Senza fretta, senza impegno.'}
+              ? 'Quindici minuti al telefono per conoscerci. Poi Massimo Brissoni (l\'agenzia REMAX) ti invia il capitolato completo — pagine di scelte tecniche e finiture, calibrate sul tuo interesse.'
+              : 'Ti presentiamo il progetto, rispondiamo alle tue domande e organizziamo una visita in cantiere. Senza fretta, senza impegno.'}
           </p>
         </div>
 
