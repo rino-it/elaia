@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Claude Code worktrees (local working directories, not part of project)
+.claude/worktrees/
+
+# Local Claude settings (per-machine)
+.claude/settings.local.json
+
+# Handoff doc (sessione interna, non parte del progetto)
+EDEL-handoff.md
+
+# Cartella sorgente immagini ELAIA (master files, non vanno nel repo)
+/images/
+
+# Env locali
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
