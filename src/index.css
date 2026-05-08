@@ -3557,7 +3557,7 @@ footer {
 
 .gallery-cinema-head {
   position: absolute;
-  top: clamp(28px, 5vw, 60px);
+  top: clamp(90px, 11vw, 130px);
   left: clamp(20px, 4vw, 60px);
   right: clamp(20px, 4vw, 60px);
   z-index: 6;
