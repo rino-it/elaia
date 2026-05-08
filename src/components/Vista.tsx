@@ -14,7 +14,7 @@ export default function Vista() {
           Il Parco dei Colli, <span className="ital">tutto attorno</span>.
         </h2>
         <p className="vista-body">
-          A Ponteranica la collina inizia dove la città finisce. Cinque minuti d'auto al centro di Bergamo. Una distanza infinita dal traffico.
+          A Ponteranica la collina inizia dove la città finisce. Cinque minuti dal centro di Bergamo. Il silenzio dei colli a portata di sguardo.
         </p>
       </div>
     </section>
