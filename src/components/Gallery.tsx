@@ -83,7 +83,7 @@ export default function Gallery() {
             trigger: section,
             pin: true,
             start: 'top top',
-            end: () => `+=${CARDS.length * 90}%`,
+            end: () => `+=${CARDS.length * 55}%`,
             scrub: 0.5,
             anticipatePin: 1,
             invalidateOnRefresh: true,
