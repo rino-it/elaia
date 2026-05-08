@@ -2956,35 +2956,20 @@ footer {
   object-position: center 40%;
 }
 
-/* Override puntuali per singolo momento — focus su soggetto + palazzina */
-.tod-bg[data-state="dawn"] img {
-  /* foto = vista-panoramica; cropped sui colli al posto del caffè per non duplicare */
-  object-position: 30% 35%;
-}
-
-.tod-bg[data-state="day"] img {
-  object-position: 65% 55%;
-  transform: scale(1.5);
-  transform-origin: 65% 55%;
-}
-
-.tod-bg[data-state="dusk"] img {
-  object-position: 22% 50%;
-  display: block;
-  animation: todZoom 14s ease-out infinite alternate;
-}
-
-@keyframes todZoom {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.06); }
-}
-
-/* Focus mirato per immagini landscape su viewport portrait */
-@media (max-width: 768px) {
-  .tod-bg[data-state="dawn"] img { object-position: 35% 50%; }
-  .tod-bg[data-state="day"] img { object-position: 82% 50%; }
-  .tod-bg[data-state="dusk"] img { object-position: 60% 50%; }
-  .tod-bg[data-state="night"] img { object-position: 65% 50%; }
+/* Override puntuali — SOLO desktop. Su mobile usiamo i file *_mobile.webp
+   già ritagliati dall'utente, niente object-position custom */
+@media (min-width: 769px) {
+  .tod-bg[data-state="dawn"] img {
+    object-position: 30% 35%;
+  }
+  .tod-bg[data-state="day"] img {
+    object-position: 65% 55%;
+    transform: scale(1.5);
+    transform-origin: 65% 55%;
+  }
+  .tod-bg[data-state="dusk"] img {
+    object-position: 22% 50%;
+  }
 }
 
 .tod-content {

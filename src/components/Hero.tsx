@@ -38,12 +38,15 @@ export default function Hero() {
   return (
     <section className="hero" id="hero">
       <div className="hero-bg">
-        <img
-          src="/images/hero/hero-main.webp"
-          alt="Vista aerea ELAIA Ponteranica — render esterno frontale"
-          loading="eager"
-          fetchPriority="high"
-        />
+        <picture>
+          <source srcSet="/images/hero/hero-main_mobile.webp" media="(max-width: 768px)" />
+          <img
+            src="/images/hero/hero-main.webp"
+            alt="Vista aerea ELAIA Ponteranica — render esterno frontale"
+            loading="eager"
+            fetchPriority="high"
+          />
+        </picture>
       </div>
       <div className="hero-inner">
         <h1 className="serif hero-title">

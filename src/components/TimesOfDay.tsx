@@ -21,6 +21,7 @@ const STATES: TodState[] = [
     body: 'Il caffè ha un panorama nuovo. Le terrazze a giardino pensile e la luce dei colli, prima del rumore della città.',
     textColor: '#1a1a1a',
     img: '/images/tod/dawn.webp',
+    imgMobile: '/images/tod/dawn_mobile.webp',
     alt: 'Mattina ELAIA — terrazza con caffè e vista sui colli',
   },
   {
@@ -30,6 +31,7 @@ const STATES: TodState[] = [
     body: 'Il verde è parte della casa. Lavanda, ulivi, fiori sulla terrazza: la natura non è fuori, è con voi.',
     textColor: '#1a1a1a',
     img: '/images/tod/day.webp',
+    imgMobile: '/images/tod/day_mobile.webp',
     alt: 'Pomeriggio ELAIA — giardino pensile e verde integrato',
   },
   {
@@ -39,6 +41,7 @@ const STATES: TodState[] = [
     body: 'Cena sotto le stelle, affacciati sulle luci della valle. Ogni sera diventa un\'occasione.',
     textColor: '#f5f5f0',
     img: '/images/tod/dusk.webp',
+    imgMobile: '/images/tod/dusk_mobile.webp',
     alt: 'Sera ELAIA — cena in terrazza con vista sulla valle',
   },
   {
@@ -48,6 +51,7 @@ const STATES: TodState[] = [
     body: 'Il silenzio del Parco dei Colli, le luci di Bergamo Alta in lontananza. Ponteranica come l\'avete sempre immaginata.',
     textColor: '#f5f5f0',
     img: '/images/tod/night.webp',
+    imgMobile: '/images/tod/night_mobile.webp',
     alt: 'Notte ELAIA — silenzio del Parco dei Colli e luci di Bergamo Alta',
   },
 ]
