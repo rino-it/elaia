@@ -630,7 +630,7 @@ body::before {
   max-width: 100%;
   color: var(--ink);
   overflow-wrap: break-word;
-  hyphens: auto;
+  hyphens: manual;
   word-break: normal;
 }
 
@@ -1724,7 +1724,7 @@ body::before {
   margin-bottom: 24px;
   color: var(--cream);
   overflow-wrap: break-word;
-  hyphens: auto;
+  hyphens: manual;
 }
 
 .lead-title .ital {
