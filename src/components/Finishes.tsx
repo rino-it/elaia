@@ -179,9 +179,6 @@ export default function Finishes() {
               <path d="M5 12h14M13 6l6 6-6 6" />
             </svg>
           </a>
-          <p className="finishes-cube__note">
-            Quindici minuti al telefono per conoscerci. Poi Massimo Brissoni (l'agenzia REMAX) le invia il capitolato completo, calibrato sulle sue esigenze.
-          </p>
         </div>
       </div>
     </section>
