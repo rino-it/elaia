@@ -2958,9 +2958,9 @@ footer {
 
 /* Override puntuali per singolo momento — focus su soggetto + palazzina */
 .tod-bg[data-state="dawn"] img {
-  object-position: 90% 95%;
-  transform: scale(1.4);
-  transform-origin: 90% 95%;
+  object-position: 60% 55%;
+  transform: scale(1.5);
+  transform-origin: 60% 55%;
 }
 
 .tod-bg[data-state="day"] img {
