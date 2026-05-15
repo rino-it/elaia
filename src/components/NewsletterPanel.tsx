@@ -28,12 +28,12 @@ export default function NewsletterPanel() {
   return (
     <section className="newsletter-panel reveal" id="newsletter">
       <div className="newsletter-inner">
-        <p className="eyebrow">Aggiornamenti dal cantiere</p>
+        <p className="eyebrow">La Newsletter</p>
         <h3 className="newsletter-title serif">
-          Una mail al mese. <span className="ital">Niente di più</span>.
+          Aggiornamenti <span className="ital">dal cantiere</span>
         </h3>
         <p className="newsletter-sub">
-          Foto del cantiere, milestone tecniche, decisioni di progetto. Senza commercializzazione.
+          Una mail al mese. Niente di più.
         </p>
 
         {!done ? (
