@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --ink: #16140f;
-  --ink-soft: #26221c;
+  --ink: #2e3437;
+  --ink-soft: #3d4448;
   --cream: #f0ebe1;
   --cream-warm: #e8e1d2;
   --paper: #faf6ee;
@@ -98,9 +98,9 @@ body::before {
 
 .ph-vista {
   background:
-    linear-gradient(180deg, transparent 60%, rgba(22, 20, 15, 0.55) 62%, rgba(22, 20, 15, 0.85) 70%, #16140f 100%),
+    linear-gradient(180deg, transparent 60%, rgba(46, 52, 55, 0.55) 62%, rgba(46, 52, 55, 0.85) 70%, #2e3437 100%),
     radial-gradient(ellipse at 50% 35%, rgba(244, 200, 140, 0.6), transparent 55%),
-    linear-gradient(180deg, #c19868 0%, #a87d4f 35%, #4a3a2a 65%, #16140f 100%);
+    linear-gradient(180deg, #c19868 0%, #a87d4f 35%, #4a3a2a 65%, #2e3437 100%);
   position: relative;
   overflow: hidden;
 }
@@ -109,7 +109,7 @@ body::before {
   background:
     linear-gradient(225deg, rgba(244, 200, 140, 0.35) 0%, rgba(193, 152, 104, 0.1) 25%, transparent 45%),
     radial-gradient(circle, rgba(193, 152, 104, 0.12) 1.5px, transparent 2px) 0 0/24px 24px,
-    linear-gradient(135deg, #2a2620 0%, #1a1814 70%, #16140f 100%);
+    linear-gradient(135deg, #2a2620 0%, #1a1814 70%, #2e3437 100%);
   position: relative;
   overflow: hidden;
 }
@@ -118,14 +118,14 @@ body::before {
   background:
     repeating-linear-gradient(45deg, transparent 0, transparent 40px, rgba(193, 152, 104, 0.12) 40px, rgba(193, 152, 104, 0.12) 42px),
     radial-gradient(ellipse at 35% 65%, rgba(193, 152, 104, 0.3), transparent 60%),
-    linear-gradient(160deg, #36302a 0%, #1a1814 60%, #16140f 100%);
+    linear-gradient(160deg, #36302a 0%, #1a1814 60%, #2e3437 100%);
   position: relative;
   overflow: hidden;
 }
 
 .ph-pattern {
   background:
-    radial-gradient(circle at 50% 50%, transparent 0, transparent 25%, rgba(22, 20, 15, 0.12) 25.5%, rgba(22, 20, 15, 0.12) 27%, transparent 27.5%, transparent 40%, rgba(22, 20, 15, 0.12) 40.5%, rgba(22, 20, 15, 0.12) 42%, transparent 42.5%, transparent 55%, rgba(22, 20, 15, 0.12) 55.5%, rgba(22, 20, 15, 0.12) 57%, transparent 57.5%),
+    radial-gradient(circle at 50% 50%, transparent 0, transparent 25%, rgba(46, 52, 55, 0.12) 25.5%, rgba(46, 52, 55, 0.12) 27%, transparent 27.5%, transparent 40%, rgba(46, 52, 55, 0.12) 40.5%, rgba(46, 52, 55, 0.12) 42%, transparent 42.5%, transparent 55%, rgba(46, 52, 55, 0.12) 55.5%, rgba(46, 52, 55, 0.12) 57%, transparent 57.5%),
     linear-gradient(135deg, #c19868, #9a6f42);
   position: relative;
   overflow: hidden;
@@ -140,7 +140,7 @@ body::before {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: rgba(240, 235, 225, 0.5);
-  background: rgba(22, 20, 15, 0.7);
+  background: rgba(46, 52, 55, 0.7);
   padding: 5px 10px;
   border-radius: 100px;
   backdrop-filter: blur(10px);
@@ -160,11 +160,11 @@ body::before {
   justify-content: space-between;
   align-items: center;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  background: linear-gradient(180deg, rgba(22, 20, 15, 0.45), transparent);
+  background: linear-gradient(180deg, rgba(46, 52, 55, 0.45), transparent);
 }
 
 .nav.scrolled {
-  background: rgba(22, 20, 15, 0.95);
+  background: rgba(46, 52, 55, 0.95);
   backdrop-filter: blur(20px) saturate(140%);
   -webkit-backdrop-filter: blur(20px) saturate(140%);
   padding: 14px 22px;
@@ -249,7 +249,7 @@ body::before {
   position: absolute;
   inset: 0;
   z-index: 3;
-  background: linear-gradient(180deg, rgba(22, 20, 15, 0.55) 0%, rgba(22, 20, 15, 0.4) 35%, rgba(22, 20, 15, 0.92) 100%);
+  background: linear-gradient(180deg, rgba(46, 52, 55, 0.55) 0%, rgba(46, 52, 55, 0.4) 35%, rgba(46, 52, 55, 0.92) 100%);
 }
 
 @keyframes slowZoom {
@@ -526,7 +526,7 @@ body::before {
   position: absolute;
   inset: 0;
   z-index: 3;
-  background: linear-gradient(180deg, rgba(22, 20, 15, 0.15) 0%, rgba(22, 20, 15, 0.65) 100%);
+  background: linear-gradient(180deg, rgba(46, 52, 55, 0.15) 0%, rgba(46, 52, 55, 0.65) 100%);
 }
 
 .vista.visible .vista-bg {
@@ -689,9 +689,9 @@ body::before {
   pointer-events: none;
   background: linear-gradient(
     180deg,
-    rgba(22, 20, 15, 0.15) 0%,
-    rgba(22, 20, 15, 0.45) 50%,
-    rgba(22, 20, 15, 0.92) 100%
+    rgba(46, 52, 55, 0.15) 0%,
+    rgba(46, 52, 55, 0.45) 50%,
+    rgba(46, 52, 55, 0.92) 100%
   );
 }
 
@@ -1222,7 +1222,7 @@ body::before {
   gap: 14px;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  box-shadow: 0 30px 80px -30px rgba(22, 20, 15, 0.35);
+  box-shadow: 0 30px 80px -30px rgba(46, 52, 55, 0.35);
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -1652,7 +1652,7 @@ body::before {
 
 .finish-item:hover {
   transform: translateY(-3px);
-  box-shadow: 0 20px 50px -20px rgba(22, 20, 15, 0.15);
+  box-shadow: 0 20px 50px -20px rgba(46, 52, 55, 0.15);
 }
 
 .finish-num {
@@ -2052,7 +2052,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(22, 20, 15, 0.97);
+  background: rgba(46, 52, 55, 0.97);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   padding: 10px;
@@ -2390,7 +2390,7 @@ footer {
     top: calc(70px + var(--bento-i, 0) * 16px);
     margin-bottom: 22px;
     min-height: 70vh;
-    box-shadow: 0 -12px 50px rgba(22, 20, 15, 0.25);
+    box-shadow: 0 -12px 50px rgba(46, 52, 55, 0.25);
     border-radius: 22px;
   }
   .bento-card.image:last-child {
@@ -2953,7 +2953,7 @@ footer {
   position: absolute;
   inset: 0;
   z-index: 2;
-  background: linear-gradient(180deg, rgba(22, 20, 15, 0.3) 0%, rgba(22, 20, 15, 0.45) 50%, rgba(22, 20, 15, 0.85) 100%);
+  background: linear-gradient(180deg, rgba(46, 52, 55, 0.3) 0%, rgba(46, 52, 55, 0.45) 50%, rgba(46, 52, 55, 0.85) 100%);
 }
 
 .tod-bg img {
@@ -3041,7 +3041,7 @@ footer {
 }
 
 .faq-item {
-  border-bottom: 1px solid rgba(22, 20, 15, 0.12);
+  border-bottom: 1px solid rgba(46, 52, 55, 0.12);
 }
 
 .faq-q {
@@ -3075,7 +3075,7 @@ footer {
   flex-shrink: 0;
   width: 28px;
   height: 28px;
-  border: 1px solid rgba(22, 20, 15, 0.2);
+  border: 1px solid rgba(46, 52, 55, 0.2);
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -3111,7 +3111,7 @@ footer {
   max-width: 720px;
   font-size: clamp(15px, 1.6vw, 17px);
   line-height: 1.65;
-  color: rgba(22, 20, 15, 0.78);
+  color: rgba(46, 52, 55, 0.78);
 }
 
 .faq-a-content p {
@@ -3210,25 +3210,6 @@ footer {
   .faq-cta-banner {
     margin: 40px 22px 0;
   }
-}
-
-.faq-footer {
-  max-width: 900px;
-  margin: 50px auto 0;
-  padding-top: 24px;
-  border-top: 1px solid rgba(22, 20, 15, 0.12);
-  font-size: 14px;
-  color: var(--muted);
-}
-
-.faq-footer a {
-  color: var(--bronze);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.faq-footer a:hover {
-  color: var(--ink);
 }
 
 /* ===== NEWSLETTER PANEL ===== */
@@ -3383,7 +3364,7 @@ footer {
 .callback-row input {
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(22, 20, 15, 0.2);
+  border-bottom: 1px solid rgba(46, 52, 55, 0.2);
   padding: 14px 0;
   color: var(--ink);
   font-family: inherit;
@@ -3397,7 +3378,7 @@ footer {
 }
 
 .callback-row input::placeholder {
-  color: rgba(22, 20, 15, 0.4);
+  color: rgba(46, 52, 55, 0.4);
 }
 
 .callback-slots {
@@ -3424,7 +3405,7 @@ footer {
   align-items: center;
   gap: 8px;
   padding: 12px 18px;
-  border: 1px solid rgba(22, 20, 15, 0.18);
+  border: 1px solid rgba(46, 52, 55, 0.18);
   border-radius: 100px;
   cursor: pointer;
   font-size: 13px;

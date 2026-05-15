@@ -195,20 +195,6 @@ export default function FAQ() {
         </a>
       </div>
 
-      <footer className="faq-footer reveal">
-        <p>
-          Altre domande? Scrivete su WhatsApp a{' '}
-          <a
-            href="https://wa.me/393332895941?text=Ciao%2C%20ho%20una%20domanda%20su%20ELAIA%20Ponteranica"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Massimo Brissoni
-          </a>{' '}
-          — risponde direttamente.
-        </p>
-      </footer>
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}

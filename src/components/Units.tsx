@@ -40,7 +40,7 @@ const UNITS: Unit[] = [
     name: 'Attico',
     img: '/images/units/unit-attico.webp',
     imgAlt: 'Attico ELAIA — terrazza panoramica 180° sul Parco dei Colli',
-    specs: '~212 m² · 4+ locali · terrazza panoramica 180° · 1 disponibili',
+    specs: '~212 m² · 4+ locali · terrazza panoramica 180° · 1 disponibile',
     price: '655.000',
     body:
       'La cima dell\'eccellenza. Terrazza panoramica 180° sul Parco dei Colli, esposizione studiata, distribuzione interna disegnata su misura.',
