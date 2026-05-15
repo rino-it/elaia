@@ -28,10 +28,13 @@ export default function NewsletterPanel() {
   return (
     <section className="newsletter-panel reveal" id="newsletter">
       <div className="newsletter-inner">
-        <p className="eyebrow">Aggiornamenti dal cantiere</p>
+        <p className="eyebrow">La Newsletter</p>
         <h3 className="newsletter-title serif">
-          Foto del cantiere, milestone tecniche, decisioni di progetto. <span className="ital">Senza commercializzazione</span>.
+          Aggiornamenti <span className="ital">dal cantiere</span>
         </h3>
+        <p className="newsletter-sub">
+          Foto del cantiere, milestone tecniche, decisioni di progetto. Senza commercializzazione.
+        </p>
 
         {!done ? (
           <form onSubmit={handleSubmit} className="newsletter-form" noValidate>
