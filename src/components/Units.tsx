@@ -20,8 +20,8 @@ const UNITS: Unit[] = [
     name: 'Trilocale',
     img: '/images/units/unit-trilocale.webp',
     imgAlt: 'Trilocale ELAIA — terrazza vivibile con vista sulle colline',
-    specs: '~85 m² · 2 camere · 2 bagni · terrazza vivibile · 3 disponibili',
-    price: '295.000',
+    specs: '~109 m² · 2 camere · 2 bagni · terrazza vivibile · 3 disponibili',
+    price: '323.000',
     body:
       'Il taglio più richiesto. Living luminoso, due camere, doppi servizi, terrazza vivibile con affaccio sulle colline.',
   },
@@ -31,7 +31,7 @@ const UNITS: Unit[] = [
     img: '/images/units/unit-quadrilocale.webp',
     imgAlt: 'Quadrilocale ELAIA — doppio affaccio e giardino pensile privato',
     specs: '~120 m² · 3 camere · 2 bagni · giardino pensile · 2 disponibili',
-    price: '420.000',
+    price: '390.000',
     body:
       'Ampi spazi, doppio affaccio, giardino pensile privato. Pensato per chi cerca la giusta misura tra eleganza e quotidianità.',
   },
@@ -40,8 +40,8 @@ const UNITS: Unit[] = [
     name: 'Attico',
     img: '/images/units/unit-attico.webp',
     imgAlt: 'Attico ELAIA — terrazza panoramica 180° sul Parco dei Colli',
-    specs: '~150 m² · 4+ locali · terrazza panoramica 180° · 2 disponibili',
-    price: '600.000',
+    specs: '~212 m² · 4+ locali · terrazza panoramica 180° · 1 disponibili',
+    price: '655.000',
     body:
       'La cima dell\'eccellenza. Terrazza panoramica 180° sul Parco dei Colli, esposizione studiata, distribuzione interna disegnata su misura.',
   },
