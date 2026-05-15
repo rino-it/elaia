@@ -40,7 +40,7 @@ const CARDS: Card[] = [
     ),
     intro: 'Materiali nobili, dettagli pensati. Niente compromessi.',
     bullets: [
-      'Pavimenti in rovere prefinito 14 mm',
+      'Possibilità del pavimento in rovere',
       'Sanitari sospesi, rubinetterie cromate',
       'Domotica BTicino Living Now integrata',
     ],
