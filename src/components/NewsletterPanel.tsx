@@ -30,11 +30,8 @@ export default function NewsletterPanel() {
       <div className="newsletter-inner">
         <p className="eyebrow">Aggiornamenti dal cantiere</p>
         <h3 className="newsletter-title serif">
-          Una mail al mese. <span className="ital">Niente di più</span>.
+          Foto del cantiere, milestone tecniche, decisioni di progetto. <span className="ital">Senza commercializzazione</span>.
         </h3>
-        <p className="newsletter-sub">
-          Foto del cantiere, milestone tecniche, decisioni di progetto. Senza commercializzazione.
-        </p>
 
         {!done ? (
           <form onSubmit={handleSubmit} className="newsletter-form" noValidate>
