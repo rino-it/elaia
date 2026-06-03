@@ -10,7 +10,6 @@ import NewsletterPanel from './components/NewsletterPanel'
 import TimesOfDay from './components/TimesOfDay'
 import Bento from './components/Bento'
 import Units from './components/Units'
-import Gallery from './components/Gallery'
 import Location from './components/Location'
 import Finishes from './components/Finishes'
 import CallbackPanel from './components/CallbackPanel'
@@ -32,7 +31,6 @@ function AppInner() {
       <TimesOfDay />
       <Bento />
       <Units />
-      <Gallery />
       <Location />
       <Finishes />
       <CallbackPanel />
