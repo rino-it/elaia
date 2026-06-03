@@ -891,14 +891,59 @@ body::before {
   margin: 4px 0 8px;
 }
 
+.unit-price-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 14px;
+  margin: 6px 0 14px;
+  padding: 12px 0;
+  border-top: 1px solid rgba(184, 134, 81, 0.18);
+  border-bottom: 1px solid rgba(184, 134, 81, 0.18);
+}
+
 .unit-price {
   display: flex;
   align-items: baseline;
   gap: 8px;
-  margin: 6px 0 14px;
-  padding: 10px 0;
-  border-top: 1px solid rgba(184, 134, 81, 0.18);
-  border-bottom: 1px solid rgba(184, 134, 81, 0.18);
+  margin: 0;
+  padding: 0;
+}
+
+.unit-cta-btn {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--bronze-soft);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 11px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.unit-cta-btn svg {
+  width: 14px;
+  height: 14px;
+  transition: transform 0.25s ease;
+}
+
+.unit-cta-btn:hover {
+  background: var(--cream);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px -10px rgba(193, 152, 104, 0.65);
+}
+
+.unit-cta-btn:hover svg {
+  transform: translateX(3px);
 }
 
 .unit-price__label {
@@ -927,27 +972,6 @@ body::before {
   max-width: 600px;
 }
 
-.unit-cta {
-  margin-top: auto;
-  padding-top: 16px;
-  align-self: flex-start;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--bronze-soft);
-  font-size: 12px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-decoration-color: var(--bronze-soft);
-  text-underline-offset: 4px;
-  font-weight: 600;
-  transition: gap 0.3s;
-}
-
-.unit-cta:hover {
-  gap: 14px;
-}
 
 @media (max-width: 768px) {
   .units-section {
@@ -2560,7 +2584,7 @@ footer {
 .btn-primary:focus-visible,
 .btn-ghost:focus-visible,
 .nav-cta:focus-visible,
-.unit-cta:focus-visible,
+.unit-cta-btn:focus-visible,
 .submit:focus-visible,
 .sticky-btn:focus-visible,
 .taglio-card:focus-visible {

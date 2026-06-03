@@ -131,18 +131,24 @@ export default function Units() {
               <div className="unit-eyebrow">— {u.num}</div>
               <h3 className="unit-name serif ital">{u.name}</h3>
               <p className="unit-specs">{u.specs}</p>
-              <p className="unit-price">
-                <span className="unit-price__label">da</span>
-                <span className="unit-price__value">€ {u.price}</span>
-              </p>
+              <div className="unit-price-row">
+                <p className="unit-price">
+                  <span className="unit-price__label">da</span>
+                  <span className="unit-price__value">€ {u.price}</span>
+                </p>
+                <a
+                  href="#contatti"
+                  className="unit-cta-btn"
+                  onClick={(e) => handleAnchor(e, '#contatti')}
+                  aria-label={`Richiedi informazioni sul ${u.name}`}
+                >
+                  Richiedi info
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                </a>
+              </div>
               <p className="unit-desc">{u.body}</p>
-              <a
-                href="#contatti"
-                className="unit-cta"
-                onClick={(e) => handleAnchor(e, '#contatti')}
-              >
-                Richiedi info →
-              </a>
             </div>
           </article>
         ))}
