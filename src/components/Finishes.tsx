@@ -1,7 +1,7 @@
 import { type ReactNode, type MouseEvent, useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
-import '../lib/gsap'
+import { ScrollTrigger } from '../lib/gsap'
 import { useLenis } from '../providers/SmoothScrollProvider'
 
 type Block = {
@@ -98,8 +98,8 @@ export default function Finishes() {
             start: 'top top',
             end: '+=300%',
             pin: true,
+            pinSpacing: true,
             scrub: 1,
-            anticipatePin: 1,
             invalidateOnRefresh: true,
             onUpdate: (self) => {
               const idx = Math.round(self.progress * 3)
@@ -107,6 +107,18 @@ export default function Finishes() {
             },
           },
         })
+
+        // Le immagini delle sezioni sopra possono caricare DOPO il calcolo
+        // dello start: ricalcolo le posizioni a load completo per evitare
+        // che il pin si agganci nel punto sbagliato (salto all'arrivo).
+        const refresh = () => ScrollTrigger.refresh()
+        if (document.readyState === 'complete') {
+          refresh()
+        } else {
+          window.addEventListener('load', refresh, { once: true })
+        }
+
+        return () => window.removeEventListener('load', refresh)
       })
 
       mm.add('(prefers-reduced-motion: reduce)', () => {
