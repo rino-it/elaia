@@ -3261,7 +3261,15 @@ footer {
 
 .newsletter-title .ital {
   font-style: italic;
-  color: var(--bronze-soft);
+  color: var(--steel-soft);
+}
+
+.newsletter-panel .eyebrow {
+  color: var(--steel-soft);
+}
+
+.newsletter-panel .eyebrow::before {
+  background: var(--steel-soft);
 }
 
 .newsletter-sub {
@@ -3294,7 +3302,7 @@ footer {
 
 .newsletter-form input:focus {
   outline: none;
-  border-color: var(--bronze-soft);
+  border-color: var(--steel-soft);
 }
 
 .newsletter-form input::placeholder {
@@ -3302,7 +3310,7 @@ footer {
 }
 
 .newsletter-btn {
-  background: var(--bronze);
+  background: var(--steel);
   color: var(--paper);
   border: none;
   padding: 14px 26px;
@@ -3330,7 +3338,7 @@ footer {
   font-family: 'Fraunces', serif;
   font-style: italic;
   font-size: 18px;
-  color: var(--bronze-soft);
+  color: var(--steel-soft);
 }
 
 .newsletter-error {

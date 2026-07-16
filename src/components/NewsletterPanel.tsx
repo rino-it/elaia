@@ -33,7 +33,7 @@ export default function NewsletterPanel() {
           Aggiornamenti <span className="ital">dal cantiere</span>
         </h3>
         <p className="newsletter-sub">
-          Foto del cantiere, milestone tecniche, decisioni di progetto. Senza commercializzazione.
+          Una mail al mese. Niente di più.
         </p>
 
         {!done ? (
